@@ -1,0 +1,200 @@
+*{
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+ 
+  font-style: normal;
+}
+p{
+  
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.card-title {
+  font-weight: bolder; /* Make the title bold */
+}
+
+header{
+    background-color: #1997FB;
+}
+.nav-item:hover{
+    border-radius: 5px;
+    background-color: #1997FB;
+    transition:  background-color 0.9s ease, border-radius 0.5s ease;
+}
+/* .nav-item:hover a{
+  color:white;
+} */
+.nav-item a{
+  color:black;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-hover {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-hover img {
+    transition: transform 0.5s ease;
+  }
+  
+  .card-hover:hover img {
+    transform: scale(1.1);
+    filter: brightness(30%);
+  }
+/*   
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.4s ease;
+  }
+  
+  .card-hover:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  .overlay-text {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  } */
+  .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .card-hover:hover .overlay{
+    opacity: 1 ;
+  }
+  .overlay-text{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #d0d6de;
+    text-transform: capitalize;
+  }
+
+  .overview-2{
+    background-color: #1997FB;
+  }
+
+  .overview-3-card{
+    width: 30vw;
+    height: 30vh;
+    
+  }
+
+.carousel-item img{
+  overflow-y: hidden;
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+}
+
+.other-course{
+  object-fit: cover;
+
+}
+
+.image-cover {
+  height: 100%;            
+  object-fit: cover;        
+}
+.navbar{
+  background-color: #1997FBAD;
+}
+
+.loginrow{
+  height: 100vh;
+}
+
+.default{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px #adb5bd solid;
+}
+
+
+.navbar-nav .dropdown-menu {
+  background-color: #f8f9fa;
+}
+
+.dropdown-item:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.dropdown-toggle::after {
+  margin-left: 0.3rem;
+  vertical-align: 0.1rem;
+}
+
+.custom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition for hover effect */
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px); /* Slight upward lift on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+}
+
+.custom-card .card-body {
+  flex-grow: 1; /* Make the card body fill the available height */
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: auto; /* Ensure the text doesn't overflow */
+}
+
+
+/* overview_3 */
+
+.full-page {
+  height: 100vh; /* Full viewport height */
+  width: 100vw;  /* Full viewport width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no-hover:hover {
+  background-color: inherit !important; /* Prevent background color change */
+  color: inherit !important;            /* Prevent text color change */
+  border-color: inherit !important;     /* Prevent border color change */
+}

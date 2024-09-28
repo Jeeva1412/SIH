@@ -1,0 +1,51 @@
+.container {
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .card {
+    max-width: 500px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Lifts the card on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .position-relative button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+/* Add extra spacing or tweak alignment if needed */
+.btn-link {
+    padding: 0;
+    margin-right: 10px;
+  }
+  
+  .h-5 {
+    height: 1.25rem;
+     /* Adjust icon size */
+  }
+  
+  .w-5 {
+    width: 1.25rem; /* Adjust icon size */
+  }
+    
